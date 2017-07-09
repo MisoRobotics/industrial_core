@@ -13,12 +13,12 @@ catkin_package(
 ## Test ##
 ##########
 
-if (CATKIN_ENABLE_TESTING)
-  find_package(roslaunch REQUIRED)
-  roslaunch_add_file_check(launch
-    DEPENDENCIES
-      joint_trajectory_action)
-endif()
+# if (CATKIN_ENABLE_TESTING)
+#   find_package(roslaunch REQUIRED)
+#   roslaunch_add_file_check(launch
+#     DEPENDENCIES
+#       joint_trajectory_action)
+# endif()
 
 #############
 ## Install ##
